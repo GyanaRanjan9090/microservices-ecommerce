@@ -12,7 +12,7 @@ spec:
     kind: GitRepository
     name: flux-system
 
-  path: ./
+  path: ./generated-manifests
 
   prune: true
   wait: true
