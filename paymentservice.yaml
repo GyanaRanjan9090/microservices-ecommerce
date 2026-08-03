@@ -44,7 +44,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: paymentservice
+        image: cloud-build.cav-test.com/boutique/paymentservice:Boutique-2
         ports:
         - containerPort: 50051
         env:
