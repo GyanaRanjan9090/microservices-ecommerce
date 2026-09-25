@@ -52,7 +52,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: local-build.cav-test.com/boutique/frontend:27
+          image: cavissonsystem/frontend:javaV17
           ports:
           - containerPort: 8080
           volumeMounts:
