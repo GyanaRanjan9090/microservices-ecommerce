@@ -9,8 +9,6 @@ spec:
   interval: 1m0s
   ref:
     branch: main
-  secretRef:
-    name: flux-system
   url: ssh://git@github.com/GyanaRanjan9090/microservices-ecommerce
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
